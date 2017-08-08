@@ -6,8 +6,8 @@ const app = express();
 app.use(express.static(__dirname));
 
 app.get('*', (req, res) => {
-  res.sendfile(path.resolve(__dirname, 'index.html'));
+  res.sendFile(path.resolve(__dirname, 'index.html'))
 })
 
 app.listen(port);
-console.log('Server started');
+console.log('Serveer started');
