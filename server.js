@@ -10,4 +10,4 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port);
-console.log('Serveer started');
+console.log('Server started on http://localhost:8080');
